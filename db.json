@@ -1,0 +1,46 @@
+{
+  "noticias": [
+    {
+      "id": 1,
+      "imagem": "assets/img/imagemcrds.png",
+      "titulo": "Hoje esta frio",
+      "descricao": "Hoje em sao paulo esta muito frio"
+    },
+    {
+      "id": 2,
+      "imagem": "assets/img/imagemcrds.png",
+      "titulo": "Hoje esta frio",
+      "descricao": "Hoje em sao paulo esta muito frio"
+    },
+    {
+      "id": 3,
+      "imagem": "assets/img/imagemcrds.png",
+      "titulo": "Hoje esta frio",
+      "descricao": "Hoje em sao paulo esta muito frio"
+    },
+    {
+      "id": 4,
+      "imagem": "assets/img/imagemcrds.png",
+      "titulo": "Hoje esta frio",
+      "descricao": "Hoje em sao paulo esta muito frio"
+    },
+    {
+      "id": 5,
+      "imagem": "assets/img/imagemcrds.png",
+      "titulo": "Hoje esta frio",
+      "descricao": "Hoje em sao paulo esta muito frio"
+    },
+    {
+      "id": 6,
+      "imagem": "assets/img/imagemcrds.png",
+      "titulo": "Hoje esta frio",
+      "descricao": "Hoje em sao paulo esta muito frio"
+    },
+    {
+      "imagem": "",
+      "titulo": "Amanha vai estar calor",
+      "descricao": "Espero que amanha esteja calor",
+      "id": 7
+    }
+  ]
+}

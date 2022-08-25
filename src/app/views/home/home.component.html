@@ -1,0 +1,182 @@
+<body onload="renderizarNoticias()"> 
+    <header>
+        <div class="container-grid posicionamento-header">
+            <a href=""><img class ="logo" src="img/logoSamsung.svg" alt="Logo do Site"></a>
+            <nav id="menu" class="menu">
+                <a href="">Inicio</a>
+                <a href="">Meu carrinho</a>
+                <a href="">Entrar ou Cadastrar</a>
+                <a href="">Sac</a>
+            </nav>
+            <a href="#" id="barras"><img class="barras" src="img/barsSS.png" alt="Menu de barras"></a>
+            <!-- <a href="#" onclick=mostrarMenu()"><img class="barras" src="img/bars.svg" alt=Menu de Barras"></a -->
+        </div>
+    </header>  
+      <!--<div class="banner">
+        <div class="container-grid posicao-texto">
+            <div class="texto-banner">
+                <h1>AllGames</h1>
+                <p>A maior loja de games online </p>
+                <a href="">Promocoes</a>
+            </div>
+        </div>
+    </div> -->
+    <div id="carrosel" class="carrosel">
+        <img src="img/galaxy-s20_fe_bts.jpg" alt="Banner Bts">
+        <img src="img/samsungazul.jpg" alt="Banner Samsung">
+        <img src="img/samsungs21.jpg" alt="Banner s21">
+
+    </div>
+    <section class="secao-jogos">
+        <div class="jogos container">
+            <a href=""><img src="img/book.png"></a>
+            <a href=""><img src="img/celulares.png"></a>
+            <a href=""><img src="img/tablet.png"></a>
+            <a href=""><img src="img/ar.png"></a>
+        </div>
+    </section>
+    <section class="secao-sobre">
+        <div class="conteudo-sobre container">
+            <div class="row">
+            <div class="texto-sobre col">
+                <h2>Acessorios</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi error necessitatibus qui nulla, et perspiciatis minima laboriosam exercitationem itaque quasi accusamus voluptate eaque odit aliquam in animi assumenda deleniti sequi?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit minus quia excepturi cumque quisquam sapiente, unde numquam eius esse velit, nulla adipisci eligendi rerum ratione molestias, suscipit nisi reiciendis? Esse!</p>
+            </div>
+            <div class="container-imagem col">
+                <img src="img/destaques.png" alt="acessorios">
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="secao-noticias">
+        <div class="container">
+            <div class="bloco-noticias">
+                <h2>Noticias</h2>
+                <div id="espaco-noticias" class="content-news">
+                     <div *ngFor="let noticias of listaNoticias" class="cardnews">
+                        <img [src]= noticias.imagem  alt="foto gameover de noticias">
+                        <h3>{{noticias.titulo}}</h3>
+                        <p>{{noticias.descricao}}</p>
+                    </div>
+                    <div class="cardnews">
+                        <img src="img/cadsnews.svg" alt="foto gameover de noticias">
+                        <h3>Titulo da Noticia</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id at blanditiis sed nulla debitis corporis, consequuntur iure ea nostrum, veniam nemo! Mollitia, at? Molestias aliquam quidem perferendis expedita illo earum.</p>
+                    </div>
+                    <div class="cardnews">
+                        <img src="img/cadsnews.svg" alt="foto gameover de noticias">
+                        <h3>Titulo da Noticia</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id at blanditiis sed nulla debitis corporis, consequuntur iure ea nostrum, veniam nemo! Mollitia, at? Molestias aliquam quidem perferendis expedita illo earum.</p>
+                    </div>
+                    <div class="cardnews">
+                        <img src="img/cadsnews.svg" alt="foto gameover de noticias">
+                        <h3>Titulo da Noticia</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id at blanditiis sed nulla debitis corporis, consequuntur iure ea nostrum, veniam nemo! Mollitia, at? Molestias aliquam quidem perferendis expedita illo earum.</p>
+                    </div>
+                    <div class="cardnews">
+                        <img src="img/cadsnews.svg" alt="foto gameover de noticias">
+                        <h3>Titulo da Noticia</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id at blanditiis sed nulla debitis corporis, consequuntur iure ea nostrum, veniam nemo! Mollitia, at? Molestias aliquam quidem perferendis expedita illo earum.</p>
+                    </div>
+                    <div class="cardnews">
+                        <img src="img/cadsnews.svg" alt="foto gameover de noticias">
+                        <h3>Titulo da Noticia</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id at blanditiis sed nulla debitis corporis, consequuntur iure ea nostrum, veniam nemo! Mollitia, at? Molestias aliquam quidem perferendis expedita illo earum.</p>
+                    </div>  
+                </div>
+            </div>
+            <aside class="next-games">
+                <h2>Publicidades</h2>
+                <div class="next-games-bg">
+                    <div class="next-games-match">
+                        <div class="teams">
+                            <div>
+                                <p> chat </p>
+                                <img src="img/simbolode-chat 1.png" alt="simbulo chat">
+                            </div>
+                            <p></p>
+                            <div>
+                                <p> loja online </p>
+                                <img src="img/simbolodelojaonline 1.png" alt="loja online">
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="next-games-match">
+                        <div class="teams">
+                            <div>
+                                <p> libras </p>
+                                <img src="img/libras 1.png" alt="libras">
+                            </div>
+                            <p></p>
+                            <div>
+                                <p> suportetecnico </p>
+                                <img src="img/suportetecnico.png" alt="suportetecnico">
+                            </div> 
+                        </div>
+                    </div>
+
+                </div>
+            </aside>
+        </div>
+    </section>
+    <footer>
+        <div class="rodape container">
+            <div class="links-footer">
+                <div class="links">
+                    <h2>Links Uteis</h2>
+                    <ul>
+                        <li><a href="#">Regras de Ultilizacao</a></li>
+                        <li><a href="#">Suporte</a></li>
+                        <li><a href="#">Central de Ajuda</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <h2>Paginas</h2>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Noticias</a></li>
+                        <li><a href="#">Lancamentos</a></li>
+                        <li><a href="#">Promocoes</a></li>
+                    </ul>
+                </div>
+            </div>
+            <img class="logo-rodape" src="img/logoSamsung.svg" alt="Logo Samsung">
+            <div class="sociais">
+                <h2>Assine nossa Newsletter!</h2>
+
+                <form action="">
+                    <input id="campo-email"type="email" placeholder="E-mail" required>
+                    <button onclick="enviarEmail()" class="botao-cadastrar">Cadastrar</button>
+                </form>
+
+                <div class="Siga-nos">
+                    <h2>Siga-nos em:</h2>
+                    <a href="#"><img src="img/whats.png"alt="logo whatsApp"></a>
+                    <a href="#"><img src="img/intagra.png"alt="logo insta"></a>
+                    <a href="#"><img src="img/facebook.png"alt="logo Face"></a>
+                    <a href="#"><img src="img/youtoba.png"alt="logo Youtube"></a>
+
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+    <!-- <script>
+        let menu = document.getElementById("menu");
+
+        function mostrarMenu(){
+            if(menu.style.display != "flex"){
+                menu.style.display = "flex"
+            }else{
+                menu.style.display = "none"
+            }
+
+        }
+    </script> -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>

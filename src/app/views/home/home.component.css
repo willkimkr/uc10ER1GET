@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2? família= Lato:ital@1 &family= Roboto & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-grid{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    background-color: #0375f8;
+    height: 80px;
+}
+
+.menu{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.bars{
+    width: 25px;
+    display: none;
+}
+
+.banner{
+   /* background-image: url(../img/banner.jpg); */
+    height: 600px;
+    background-repeat: none;
+    background-size: cover;
+}
+
+#carrosel img{
+    display: none;
+}
+.banner-ativo{
+    display: flex;
+}
+.posicao-texto{
+    justify-content: flex-end;
+}
+.texto-banner {
+    width: 495px;
+    color:rgb(49, 81, 48); 
+    text-align: center;
+    font-family:'Roboto', sem serifa;
+    font-size: 25px; 
+}
+.texto-banner h1{
+    font-family:  'Lato', sem serifa;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.texto-banner a{
+    background-color: red;
+    color:rgb(49, 81, 48) ;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 3px;
+}
+.texto-banner p{
+    margin-bottom: 30px;
+}
+
+.secao-jogos{
+    background-color: #039aff;
+}
+.jogos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.jogos img{
+    width: 100px;
+}
+.secao-sobre{
+    /*background-image: img/imagemcards; */
+    background-position: center;
+    background-repeat: none;
+    background-color: cover;
+}
+
+.texto-sobre{
+    color: rgb(26, 15, 2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secao-noticias{
+    background-color: rgb(129, 177, 238);
+    padding: 30px;
+}
+.secao-noticias .container{
+    display:flex;
+    justify-content: space-between;
+}
+.bloco-noticias{
+    width: 70%;
+    height: 90%;
+
+}
+.bloco-noticias h2{
+    font-size: 29px;
+}
+.content-news{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.cardnews{
+    width: 260px;
+    height: 500px;
+    color:#fff;
+    margin-bottom: 30px;
+    background: var( --gradient);
+    box-shadow: 0px 0px 40px rgb(255, 255, 255), 0px 0px 60px rgb(255, 255, 255) ;
+}
+.cardnews h3{    
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 24px;
+    
+}
+.cardnews p{
+    padding-left: 16px;
+    font-size: 16px;
+}
+.next-games{
+    width: 25%;
+
+}
+.next-games h2{
+    font-size: 25px;
+    color:antiquewhite;
+    margin-bottom: 25px;
+}
+     
+
+
+.next-games-bg{
+    height:auto;
+    background: var(--gradient);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 32px 0;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255), 0px 0px 30px rgb(255, 255, 255) ;
+}
+.next-games-match{
+    width: 100%;
+    height: 99px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+}
+.teams{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.next-games-match div{
+    display: flex;
+    align-items: center;
+}
+.next-games-match img{
+    max-width: 40px;
+}
+.next-games-match p{
+    margin-top: 16px;
+}
+    
+    
+
+footer{
+    background-color: rgb(0, 98, 255);
+}    
+.rodape{
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-rodape{
+    width: 200px;
+}
+.sociais h2{
+    color:rgb(6, 2, 16);
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.links{
+    color: rgb(0, 0, 0);
+}
+.links h2{
+    font-size: 24px;
+}
+.links a{
+    color:rgb(7, 7, 7);
+    text-decoration: none;
+    font-size: 14px;
+}
+.links-footer{
+    display:flex;
+    justify-content: space-between;
+    width: 400px;
+} 
+
+.sociais form{
+    display:flex;
+    margin-bottom: 8px;
+}
+.sociais input[type="email"]{
+    height: 40px;
+    width: 200px;
+}
+.sociais input[type="email"]::placeholder{
+    color: grey;
+    font-weight: bold;
+}
+.botao-cadastrar{
+    width:9.75em;
+    color: white;
+    background-color: #8326ef;
+    border: none;
+    font-size: 1.1em;
+}
+
+.siga-nos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.8em;
+}
+
+@media screen and (max-width: 1200px) {
+    .container-grid{
+        width: 90%;
+    }
+    .menu{
+        width: 450px;
+    }
+    .menu a{
+        font-size: 10px;
+    }
+
+    
+    .logo{
+        width: 200px;
+    }
+}
+@media screen and (max-width: 768px){
+    h1{
+        color:darkcyan
+    }
+    .barras{
+        display: inline-block;
+    }
+    .menu{
+        display: none;
+        flex-direction: column;
+        width: 200px;
+        position:absolute;
+        top:0;
+        right: 60px;
+        background-color: black;
+    }
+    .menu a{
+        text-align: center;
+        padding: 15px;
+    }
+    .menu-ativo{
+        display: flex;
+    }
+    .posicionamento-header{
+        position: relative;
+    }
+    
+}
